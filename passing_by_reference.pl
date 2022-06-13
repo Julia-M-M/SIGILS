@@ -38,3 +38,14 @@ sub method {
 	my ($hashref) = @_;
 	say $hashref->{'id'};
 }
+
+#########################################################################################################################################################
+
+my @array = ('abcZ','adk','aroE');
+$array[1]; #adk
+my $array_ref = ['abcZ','adk','aroE'];
+$array_ref->[1]; #adk
+my %hash = ( 'abcZ' => 1, 'adk' => 2, 'aroE' => 3);
+$hash{'adk'}; #2
+my $hash_ref = { 'abcZ' => 1, 'adk' => 2, 'aroE' => 3 };
+$hash_ref->{'adk'}; #2
